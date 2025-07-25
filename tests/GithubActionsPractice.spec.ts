@@ -20,7 +20,7 @@ test("Github Actions Practice 3", async ({ page }) => {
   console.log("Starting Practice 1");
   await page.goto("https://www.saucedemo.com/");
   console.log(await page.title());
-  expect(page).toHaveTitle("Swag Labs worng");
+  expect(page).toHaveTitle("Swag Labs");
   console.log("Ending Practice 3");
 });
 
